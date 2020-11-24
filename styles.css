@@ -6,6 +6,10 @@ body {
   background-color: #fff;
 }
 
+body {
+  font-size: 62.5%;
+}
+
 .header {
   background-color: cyan;
   color: hsl(60, 100%, 50%);
@@ -29,4 +33,78 @@ body {
 .end {
   flex: 1;
   justify-items: flex-end;
+}
+
+.section-2 {
+  display: flex;
+  justify-content: center;
+  padding: 0.8rem;
+  margin: 1.6rem 12rem;
+  max-width: 100%;
+  font-size: 1.6rem;
+}
+
+.section-2 .section-2_article {
+  margin-right: 1.6rem;
+  font-size: 1.2rem;
+  padding-left: 18rem;
+}
+
+.section-2_article .author {
+  font-size: 1.2rem;
+  color: #333;
+}
+
+.section-2_header .social {
+  display: flex;
+  justify-content: space-between;
+}
+
+.section-2_header .social span {
+  font-size: 0.9rem;
+}
+
+.social .social-media {
+  padding: 0.4rem;
+}
+
+.section-2_article h2 a {
+  color: #333;
+  font-size: 1.2rem;
+  text-decoration: none;
+  padding-left: 0.4rem;
+}
+
+.section-2 .section-2_article p {
+  padding: 0.8rem;
+}
+
+.section-2 .editor-pick .editor-pick_items {
+  display: flex;
+  flex-direction: column;
+}
+
+.editor-pick {
+  margin-top: 20rem;
+  padding: 0.8rem;
+  width: 14rem;
+}
+
+.editor-pick h3 {
+  font-size: 0.9rem;
+}
+
+.editor-pick_items .items {
+  display: flex;
+  margin-bottom: 1.6rem;
+  font-size: 0.9rem;
+}
+
+.editor-pick_items .items:first-child {
+  margin-top: 16px;
+}
+
+.items img {
+  width: 40%;
+  padding-right: 0.8rem;
 }
