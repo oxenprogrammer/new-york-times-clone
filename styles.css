@@ -5,21 +5,26 @@ body {
   margin: 0;
   background-color: #fff;
 }
+
 .header {
   background-color: cyan;
   color: hsl(60, 100%, 50%);
 }
+
 .header nav {
-  display: flex
+  display: flex;
 }
+
 .header,
 .heading {
   flex: 4;
 }
+
 .header,
 .start {
   flex: 4;
 }
+
 .header,
 .end {
   flex: 1;
