@@ -118,16 +118,12 @@ body {
   font-size: 1rem;
 }
 
-/* .inflation .inflation-articles {
-  display: flex;
-  flex-direction: column;
-} */
 .inflation .background {
-  background-image: url('./img/inflation2.png');
-  background-repeat:no-repeat;
+  background-image: url("./img/inflation2.png");
+  background-repeat: no-repeat;
   background-size: 100% 100%;
-  width:65rem;
-  height:40rem;
+  width: 65rem;
+  height: 40rem;
 }
 .background .articles-row {
   display: flex;
