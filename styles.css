@@ -12,8 +12,27 @@ body {
 
 .header {
   background-color: cyan;
-  color: yellow;
-  font-size: 1.6rem;
+  color: hsl(60, 100%, 50%);
+}
+
+.header nav {
+  display: flex;
+}
+
+.header,
+.heading {
+  flex: 4;
+}
+
+.header,
+.start {
+  flex: 4;
+}
+
+.header,
+.end {
+  flex: 1;
+  justify-items: flex-end;
 }
 
 .section-2 {
