@@ -125,11 +125,13 @@ body {
   width: 65rem;
   height: 40rem;
 }
+
 .background .articles-row {
   display: flex;
   justify-content: space-between;
   padding-top: 10rem;
 }
+
 .articles-row .article-row_items {
   padding: 0.8rem;
 }
