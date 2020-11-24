@@ -13,26 +13,80 @@ body {
 .header {
   background-color: cyan;
   color: hsl(60, 100%, 50%);
+
 }
 
-.header nav {
+.header .flex-nav {
   display: flex;
+  flex: 1;
+  justify-content: space-around;
+  font-size: 20px;
+  padding-top: 0.2rem;
+  color: black;
+  border: 1px solid azure;
 }
 
 .header,
 .heading {
-  flex: 4;
+  /* flex: 4; */
+  display: flex;
+  justify-content: center;
 }
 
 .header,
 .start {
-  flex: 4;
+  /* flex: 4; */
+  display: flex;
+  justify-content: space-between;
 }
 
+.header .hamburger {
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 12px;
+}
+
+.header .space {
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 15px;
+  color: #333;
+}
 .header,
 .end {
-  flex: 1;
+  /* flex: 1; */
+  display: flex;
   justify-items: flex-end;
+}
+.header button {
+  background-color: #567B95;
+}
+
+.header .subscribe {
+  color: #fff;
+  font-size: 12px;
+  padding: 0.5rem;
+  border-radius: 5px;
+}
+
+.header .account {
+  color: #fff;
+  font-size: 12px;
+  padding: 0.5rem;
+  border-radius: 5px;
+}
+
+.section .second-header {
+  display: flex;
+  justify-content: center;
+  margin: 50px;
+  font-size: 40px;
+}
+
+img {
+  width: 75%;
+  display: flex;
+  justify-content: center;
 }
 
 .section-2 {
