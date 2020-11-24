@@ -19,7 +19,7 @@ body {
 .section-2 {
   display: flex;
   justify-content: center;
-  padding: .8rem;
+  padding: 0.8rem;
   margin: 1.6rem 12rem;
   max-width: 100%;
   font-size: 1.6rem;
@@ -42,22 +42,22 @@ body {
 }
 
 .section-2_header .social span {
-  font-size: .9rem;
+  font-size: 0.9rem;
 }
 
 .social .social-media {
-  padding: .4rem;
+  padding: 0.4rem;
 }
 
 .section-2_article h2 a {
   color: #333;
   font-size: 1.2rem;
   text-decoration: none;
-  padding-left: .4rem;
+  padding-left: 0.4rem;
 }
 
 .section-2 .section-2_article p {
-  padding: .8rem;
+  padding: 0.8rem;
 }
 
 .section-2 .editor-pick .editor-pick_items {
@@ -67,18 +67,18 @@ body {
 
 .editor-pick {
   margin-top: 20rem;
-  padding: .8rem;
+  padding: 0.8rem;
   width: 14rem;
 }
 
 .editor-pick h3 {
-  font-size: .9rem;
+  font-size: 0.9rem;
 }
 
 .editor-pick_items .items {
   display: flex;
   margin-bottom: 1.6rem;
-  font-size: .9rem;
+  font-size: 0.9rem;
 }
 
 .editor-pick_items .items:first-child {
@@ -87,8 +87,5 @@ body {
 
 .items img {
   width: 40%;
-  padding-right: .8rem;
+  padding-right: 0.8rem;
 }
-
-
-
