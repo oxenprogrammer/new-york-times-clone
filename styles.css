@@ -3,12 +3,29 @@ html,
 body {
   padding: 0;
   margin: 0;
-  font-size: 62.5%;
+  /* font-size: 62.5%; */
   background-color: #fff;
 }
 
 .header {
   background-color: cyan;
   color: yellow;
-  font-size: 1.6rem;
+  /* font-size: 1.6rem; */
+}
+.header nav {
+  display: flex
+}
+.header,
+.heading {
+  flex: 4;
+
+}
+.header,
+.start {
+  flex: 4;
+}
+.header,
+.end {
+  flex: 1;
+  justify-items: flex-end;
 }
