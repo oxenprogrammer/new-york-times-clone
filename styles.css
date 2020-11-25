@@ -37,8 +37,8 @@ body {
 .section-2 {
   display: flex;
   justify-content: center;
-  padding: 0.8rem;
-  margin: 1.6rem 12rem;
+  padding: 0.8rem 12rem;
+  margin: 1.6rem 0;
   max-width: 100%;
   font-size: 1.6rem;
 }
