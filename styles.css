@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=New+Rocker&display=swap'); 
+@import url('https://fonts.googleapis.com/css2?family=New+Rocker&display=swap&family=Hind+Vadodara:wght@300'); 
 
 *,
 html,
@@ -44,15 +44,34 @@ body {
   font-family: 'New Rocker', cursive;
 }
 
-.header .start {
-}
-
 .header .btn{
   color: white;
   background-color:#567b95;
   padding: 0.7rem;
   border-radius:0.3rem;
 }
+
+#section1 .section1-header {
+  font-family: 'Hind Vadodara', sans-serif; 
+  font-size: 2rem ;
+  position: relative;
+  left: 30%;
+  font-style: italic;
+}
+
+.section1-header span {
+  display: block;
+}
+
+#section1 img, p {
+  max-width: 75%;
+  position: relative;
+  left: 10%;
+}
+
+#section1 p {
+  font-size: 1rem;
+} 
 
 .section-2 {
   display: flex;
