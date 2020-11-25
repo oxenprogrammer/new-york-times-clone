@@ -13,7 +13,6 @@ body {
 .header {
   background-color: cyan;
   color: hsl(60, 100%, 50%);
-
 }
 
 .header .flex-nav {
@@ -52,14 +51,16 @@ body {
   font-size: 15px;
   color: #333;
 }
+
 .header,
 .end {
   /* flex: 1; */
   display: flex;
   justify-items: flex-end;
 }
+
 .header button {
-  background-color: #567B95;
+  background-color: #567b95;
 }
 
 .header .subscribe {
