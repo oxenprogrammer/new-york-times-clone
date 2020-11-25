@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=New+Rocker&display=swap'); 
+
 *,
 html,
 body {
@@ -9,29 +11,47 @@ body {
   font-size: 62.5%;
 }
 
-.header {
-  background-color: cyan;
-  color: hsl(60, 100%, 50%);
-}
-
-.header nav {
+.header .flex-nav {
   display: flex;
+  justify-content: space-between;
+  padding: 0.5rem;
+  border: 0.1rem solid snow;
 }
 
-.header,
+.start:hover {
+  cursor: pointer;
+}
+
+.start .start-item:hover {
+  background-color: #d3d3d3;
+}
+.start:first-child a {
+    text-decoration: none;
+    font-size: 1rem;
+    padding: 1rem;
+    color: black;
+    font-weight: bolder;
+}
+
+.start .fa-search {
+  font-size: 1rem;
+
+}
+.header
 .heading {
-  flex: 4;
+  font: bolder;
+  font-size: 1rem;
+  font-family: 'New Rocker', cursive;
 }
 
-.header,
-.start {
-  flex: 4;
+.header .start {
 }
 
-.header,
-.end {
-  flex: 1;
-  justify-items: flex-end;
+.header .btn{
+  color: white;
+  background-color:#567b95;
+  padding: 0.7rem;
+  border-radius:0.3rem;
 }
 
 .section-2 {
