@@ -112,13 +112,15 @@ body {
   display: flex;
   justify-content: center;
   flex-direction: column;
-  padding: 0.8rem;
-  margin: 1.6rem 16rem;
+  padding: 0.8rem 16rem;
+  margin: 1.6rem 0;
   max-width: 100%;
   font-size: 1rem;
 }
 
 .inflation .background {
+  display: flex;
+  justify-content: center;
   background-image: url("./img/inflation2.png");
   background-repeat: no-repeat;
   background-size: 100% 100%;
