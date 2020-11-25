@@ -3,7 +3,6 @@ html,
 body {
   padding: 0;
   margin: 0;
-  background-color: #fff;
 }
 
 body {
@@ -162,4 +161,32 @@ img {
 .items img {
   width: 40%;
   padding-right: 0.8rem;
+}
+
+.inflation {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  padding: 0.8rem;
+  margin: 1.6rem 16rem;
+  max-width: 100%;
+  font-size: 1rem;
+}
+
+.inflation .background {
+  background-image: url("./img/inflation2.png");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  width: 65rem;
+  height: 40rem;
+}
+
+.background .articles-row {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 10rem;
+}
+
+.articles-row .article-row_items {
+  padding: 0.8rem;
 }
