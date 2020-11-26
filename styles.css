@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=New+Rocker&display=swap&family=Hind+Vadodara:wght@300");
+@import url("https://fonts.googleapis.com/css2?family=New+&family=Hind+Vadodara:wght@300&family=Castoro:ital@1Rocker&display=swap");
 
 *,
 html,
@@ -9,6 +9,7 @@ body {
 
 body {
   font-size: 62.5%;
+  overflow-x: hidden;
 }
 
 h3 {
@@ -39,6 +40,12 @@ h3 {
   background-color: #d3d3d3;
 }
 
+.heading img {
+  max-width: 30%;
+  position: relative;
+  left: 14rem;
+}
+
 .section-2_article h2 a {
   color: #333;
   font-size: 1.2rem;
@@ -67,9 +74,14 @@ h3 {
   border-radius: 0.3rem;
 }
 
-#section1 .section1-header {
-  font-family: "Hind Vadodara", sans-serif;
-  font-size: 2rem;
+.section1 {
+  margin-top: 4rem;
+}
+
+.section1 .section1-header {
+  font-family: "Castoro", serif;
+  font-size: 1.5rem;
+  padding-bottom: 2rem;
   position: relative;
   left: 30%;
   font-style: italic;
@@ -88,11 +100,15 @@ p img {
   padding-right: 0.8rem;
 }
 
-#section1 img,
+.section1 img,
 p {
   max-width: 75%;
   position: relative;
   left: 10%;
+}
+
+.section1 p {
+  color: #727070;
 }
 
 .inflation p {
@@ -112,7 +128,7 @@ p {
   justify-content: space-between;
 }
 
-#section1 p {
+.section1 p {
   font-size: 1rem;
 }
 
