@@ -40,6 +40,10 @@ h3 {
   background-color: #d3d3d3;
 }
 
+p img {
+  max-width: 100%;
+}
+
 .heading img {
   max-width: 30%;
   position: relative;
@@ -91,10 +95,6 @@ h3 {
   display: block;
 }
 
-p img {
-  max-width: 100%;
-}
-
 .items img {
   width: 40%;
   padding-right: 0.8rem;
@@ -107,16 +107,17 @@ p {
   left: 10%;
 }
 
-.section1 p {
-  color: #727070;
-}
-
 .inflation p {
   position: static;
 }
 
 .last-article p {
   padding: 0.8rem;
+}
+
+.section1 p {
+  color: #727070;
+  font-size: 1rem;
 }
 
 .section-2 .section-2_article p {
@@ -126,10 +127,6 @@ p {
 .footer p:last-child {
   display: flex;
   justify-content: space-between;
-}
-
-.section1 p {
-  font-size: 1rem;
 }
 
 .section-2 {
