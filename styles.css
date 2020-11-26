@@ -284,16 +284,45 @@ p {
 }
 
 .widget-bottom {
-  width: 100%;
+  position: relative;
+  float: left;
+  left: 10%;
+  width: 80rem;
   background-color: red;
 }
 
 .widget-bottom_floatright {
   float: right; 
-  width: 40%;
-  background-color: yellow;
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+  /* background-color: yellow; */
   margin-left: 2rem;
 }
+
+.widget-bottom_floatright hr {
+  color: #000;
+  font-size: 0.2rem;
+}
+
+.widget-bottom_floatright h4 {
+  margin: 0.5rem 0;
+  font-size: 1.2rem;
+  font-weight: 700;
+  padding-bottom: 1rem;
+}
+
+.widget-bottom_floatright a {
+  text-decoration: none;
+  font-size: 1.2rem;
+  padding: 1rem 0;
+  color: #000;
+}
+
+.widget-bottom_floatright a:hover {
+  color: #727070;
+}
+
 .widget-bottom_floatleft {
   background-color: lime;
 }
