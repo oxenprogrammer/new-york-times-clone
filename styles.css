@@ -288,6 +288,7 @@ p {
   display: none;
   margin: 0 auto;
   width: 45rem;
+  
   /* Form outline */
   padding: 1em;
   border: 1px solid #ccc;
