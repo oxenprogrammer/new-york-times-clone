@@ -79,6 +79,15 @@ h3 {
   display: block;
 }
 
+p img {
+  max-width: 100%;
+}
+
+.items img {
+  width: 40%;
+  padding-right: 0.8rem;
+}
+
 #section1 img,
 p {
   max-width: 75%;
@@ -96,15 +105,6 @@ p {
 
 .section-2 .section-2_article p {
   padding: 0.8rem;
-}
-
-p img {
-  max-width: 100%;
-}
-
-.items img {
-  width: 40%;
-  padding-right: 0.8rem;
 }
 
 .footer p:last-child {
