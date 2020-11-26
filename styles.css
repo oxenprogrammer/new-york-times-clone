@@ -159,7 +159,23 @@ p {
 }
 
 .social .social-media {
-  padding: 0.4rem;
+  padding: 1rem;
+}
+
+.fab, .fas, .far {
+  margin: 0.6rem;
+}
+
+.fab, .fas {
+  padding: 0.6rem;
+  border-radius: 5rem;
+  background-color: lightgrey;
+}
+
+.far {
+  font-size: 2rem;
+  font-weight: lighter;
+  margin-top: 0.2rem ;
 }
 
 .section-2 .editor-pick .editor-pick_items {
