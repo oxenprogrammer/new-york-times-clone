@@ -263,14 +263,18 @@ p {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  padding: 0.8rem 20rem;
+  padding: 0.4rem 20rem;
   margin: 1.6rem 0;
 }
 
-.footer p .btn-footer {
+.footer .address {
+  margin-top: 1.6rem;
+}
+
+/* .footer p .btn-footer {
   text-decoration: none;
   color: #fff;
-  padding: 1rem;
+  padding: 0.5rem;
   width: 16rem;
   text-align: center;
   border-radius: 0.2rem;
@@ -280,5 +284,17 @@ p {
 .footer .social {
   color: #000;
   padding: 1rem;
+  font-size: 1rem;
+} */
+
+.btn-footer {
+  background-color:#567b95;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  width: 16rem;
+  border-radius: 0.2rem;
   font-size: 1rem;
 }
