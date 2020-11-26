@@ -229,7 +229,7 @@ p {
   padding: 0.2rem;
 }
 
-#last-article {
+.last-section {
   display: flex;
   justify-content: center;
   padding: 0.8rem 20rem;
