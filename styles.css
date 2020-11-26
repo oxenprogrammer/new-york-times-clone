@@ -27,12 +27,23 @@ h3 {
   border: 0.1rem solid snow;
 }
 
+.start {
+  font-size: 1rem;
+}
+
 .start:hover {
   cursor: pointer;
 }
 
 .start .start-item:hover {
   background-color: #d3d3d3;
+}
+
+.section-2_article h2 a {
+  color: #333;
+  font-size: 1.2rem;
+  text-decoration: none;
+  padding-left: 0.4rem;
 }
 
 .start:first-child a {
@@ -43,12 +54,8 @@ h3 {
   font-weight: bolder;
 }
 
-.start {
-  font-size: 1rem;
-}
-
 .header .heading {
-  font: bold;
+  font-weight: bold;
   font-size: 1rem;
   font-family: "New Rocker", cursive;
 }
@@ -77,6 +84,32 @@ p {
   max-width: 75%;
   position: relative;
   left: 10%;
+}
+
+.inflation p {
+  position: static;
+}
+
+.last-article p {
+  padding: 0.8rem;
+}
+
+.section-2 .section-2_article p {
+  padding: 0.8rem;
+}
+
+p img {
+  max-width: 100%;
+}
+
+.items img {
+  width: 40%;
+  padding-right: 0.8rem;
+}
+
+.footer p:last-child {
+  display: flex;
+  justify-content: space-between;
 }
 
 #section1 p {
@@ -116,17 +149,6 @@ p {
   padding: 0.4rem;
 }
 
-.section-2_article h2 a {
-  color: #333;
-  font-size: 1.2rem;
-  text-decoration: none;
-  padding-left: 0.4rem;
-}
-
-.section-2 .section-2_article p {
-  padding: 0.8rem;
-}
-
 .section-2 .editor-pick .editor-pick_items {
   display: flex;
   flex-direction: column;
@@ -152,11 +174,6 @@ p {
   margin-top: 16px;
 }
 
-.items img {
-  width: 40%;
-  padding-right: 0.8rem;
-}
-
 .inflation {
   display: flex;
   justify-content: center;
@@ -165,10 +182,6 @@ p {
   margin: 1.6rem 0;
   max-width: 100%;
   font-size: 1rem;
-}
-
-.inflation p {
-  position: static;
 }
 
 .inflation hr {
@@ -206,7 +219,6 @@ p {
   padding: 0.8rem 20rem;
   margin: 1.6rem 0;
   max-width: 100%;
-  /* font-size: 1.6rem; */
 }
 
 .last-article {
@@ -214,15 +226,8 @@ p {
   font-size: 1.2rem;
 }
 
-.last-article p {
-  padding: 0.8rem;
-}
-
 .last-article iframe {
   border: 2px red solid;
-}
-p img {
-  max-width: 100%;
 }
 
 .footer {
@@ -231,11 +236,6 @@ p img {
   justify-content: center;
   padding: 0.8rem 20rem;
   margin: 1.6rem 0;
-}
-
-.footer p:last-child {
-  display: flex;
-  justify-content: space-between;
 }
 
 .footer p .btn-footer {
