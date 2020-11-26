@@ -48,7 +48,7 @@ h3 {
 }
 
 .header .heading {
-  font: bolder;
+  font: bold;
   font-size: 1rem;
   font-family: "New Rocker", cursive;
 }
@@ -218,6 +218,9 @@ p {
   padding: 0.8rem;
 }
 
+.last-article iframe {
+  border: 2px red solid;
+}
 p img {
   max-width: 100%;
 }
