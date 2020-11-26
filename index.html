@@ -18,7 +18,7 @@
         <a class="box" href="#">SPACE & COSMOS</a>
       </div>
       <div class="heading">
-        <h1 class="box">THE NEW YORK TIMES</h1>
+        <img src="./img/the-new-york-times-logo.png" alt="The New York Times Logo">
       </div>
       <div class="end">
         <button class="btn box">
@@ -30,7 +30,7 @@
       </div>
     </nav>
   </header>
-  <section id="section1">
+  <section class="section1">
     <header class="section1-header">
       <h1>Space Ripples Reveal Big Bang’s <span>Smoking Gun</span> </h1>
     </header>
@@ -208,7 +208,7 @@
       </article>
     </div>
   </section>
-  <section id="last-article">
+  <section class="last-section">
     <article class="last-article">
       <p>Dr. Kovac said the chance that the results were a fluke was only one in 10 million.
       </p>
@@ -360,12 +360,29 @@
       headline: Space Ripples Reveal Big Bang’s Smoking Gun. Order Reprints | Today’s Paper | Subscribe</p>
     <p class="address">
       <a class="btn-footer" href="">READ 615 COMMENTS</a>
+      <button onclick="getElementById('contact-form').style.display='block'" class="contact-button">Contact
+        Us</button>
       <a class="social" href="#"><i class="fab fa-facebook"></i>
         <i class="fab fa-twitter"></i>
         <i class="fas fa-envelope"></i>
         <i class="fas fa-share"></i></a>
     </p>
   </footer>
+  <form action="#" id="contact-form">
+    <label for="name">Name:</label>
+    <input type="text" id="name" name="name" maxlength="20" required />
+    <label for="email">E-mail:</label>
+    <input type="email" id="email" name="email" maxlength="20" required />
+    <label for="comment">Comment</label>
+    <textarea name="comment" id="comment" cols="30" rows="10" maxlength="250" required>Type your comment here ...</textarea>
+    <label for="question">What is your overall opinion about this article?</label>
+    <input type="radio" name="question" id="question1">
+    <input type="radio" name="question" id="question2">
+    <input type="radio" name="question" id="question3">
+    <label for="subscribe">I want to subscribe to the newsletter</label>
+    <input type="checkbox" name="subscribe" id="subscribe">
+    <input type="submit" value="Send">
+  </form>
 </body>
 
 </html>
