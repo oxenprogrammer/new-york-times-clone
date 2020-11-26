@@ -34,6 +34,7 @@ h3 {
 .start .start-item:hover {
   background-color: #d3d3d3;
 }
+
 .start:first-child a {
   text-decoration: none;
   font-size: 1rem;
@@ -45,8 +46,9 @@ h3 {
 .start .fa-search {
   font-size: 1rem;
 }
+
 .header .heading {
-  font: bolder;
+  font: bold;
   font-size: 1rem;
   font-family: "New Rocker", cursive;
 }
@@ -216,6 +218,9 @@ p {
   padding: 0.8rem;
 }
 
+.last-article iframe {
+  border: 2px red solid;
+}
 p img {
   max-width: 100%;
 }
