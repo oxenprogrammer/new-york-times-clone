@@ -416,3 +416,37 @@ p {
 .clear .clear-last {
   font-size: 1rem;
 }
+
+.grid-one header a {
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: 17rem 17rem 17rem;
+  grid-template-rows: 17rem 17rem;
+  padding: 1rem 2.4rem 1rem 0;
+}
+
+.grid-container .grid-item {
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 1rem;
+  font-size: 1rem;
+}
+
+.grid-item img {
+  width: 100%;
+}
+
+.grid-item h6 {
+  text-align: right;
+  color: #727070;
+  padding: 0.5rem 0;
+}
+
+.grid-item h5 {
+  text-align: left;
+  color: #727070;
+  padding: 0.5rem 0;
+}
