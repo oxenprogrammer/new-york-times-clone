@@ -449,3 +449,24 @@ p {
   color: #727070;
   padding: 0.5rem 0;
 }
+
+.footer-links {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer-links header {
+  display: flex;
+  justify-content: space-between;
+  margin: 1rem 0;
+}
+
+.footer-links header img {
+  max-width: 16%;
+}
+
+.footer-links header a {
+  text-decoration: none;
+  color: grey;
+  font-size: 1rem;
+}
