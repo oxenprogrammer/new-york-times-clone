@@ -28,8 +28,7 @@ h3 {
 .header .flex-nav {
   display: flex;
   justify-content: space-between;
-  padding: 0.5rem;
-  border: 0.1rem solid snow;
+  border: 0.1rem solid gray;
 }
 
 .start {
@@ -49,7 +48,8 @@ p img {
 }
 
 .heading img {
-  max-width: 30%;
+  top: 1rem;
+  max-width: 25%;
   position: relative;
   left: 14rem;
 }
@@ -109,6 +109,8 @@ p img {
 }
 
 .header .btn {
+  position: relative;
+  top: 0.5rem;
   color: white;
   background-color: #567b95;
   padding: 0.7rem;
