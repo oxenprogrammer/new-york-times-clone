@@ -163,6 +163,8 @@ p {
 
 .editor-pick h3 {
   font-size: 0.9rem;
+  position: relative;
+  left: -1rem;
 }
 
 .inflation h3 {
@@ -216,25 +218,6 @@ p {
   font-size: 0.9rem;
   position: relative;
   top: 1rem;
-}
-
-.fab,
-.fas,
-.far {
-  margin: 0.6rem;
-}
-
-.fab,
-.fas {
-  padding: 0.6rem;
-  border-radius: 5rem;
-  background-color: lightgrey;
-}
-
-.far {
-  font-size: 2rem;
-  font-weight: lighter;
-  margin-top: 0.2rem;
 }
 
 .social .social-media {
