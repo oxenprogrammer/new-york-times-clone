@@ -162,11 +162,14 @@ p {
   padding: 1rem;
 }
 
-.fab, .fas, .far {
+.fab,
+.fas,
+.far {
   margin: 0.6rem;
 }
 
-.fab, .fas {
+.fab,
+.fas {
   padding: 0.6rem;
   border-radius: 5rem;
   background-color: lightgrey;
@@ -175,7 +178,7 @@ p {
 .far {
   font-size: 2rem;
   font-weight: lighter;
-  margin-top: 0.2rem ;
+  margin-top: 0.2rem;
 }
 
 .section-2 .editor-pick .editor-pick_items {
@@ -272,7 +275,7 @@ p {
 }
 
 .btn-footer {
-  background-color:#567b95;
+  background-color: #567b95;
   text-decoration: none;
   display: flex;
   align-items: center;
@@ -288,21 +291,24 @@ p {
   float: left;
   left: 10%;
   width: 80rem;
-  background-color: red;
+}
+
+.widget-bottom:after,
+.widget-bottom_floatright:after,
+.widget-bottom_floatleft:after {
+  content: ".";
+  display: block;
+  height: 0;
+  clear: both;
+  visibility: hidden;
 }
 
 .widget-bottom_floatright {
-  float: right; 
+  float: right;
   display: flex;
   flex-direction: column;
   width: 30%;
-  /* background-color: yellow; */
   margin-left: 2rem;
-}
-
-.widget-bottom_floatright hr {
-  color: #000;
-  font-size: 0.2rem;
 }
 
 .widget-bottom_floatright h4 {
@@ -324,12 +330,22 @@ p {
 }
 
 .widget-bottom_floatleft {
-  background-color: lime;
+  padding: 0.4rem;
 }
 
 .widget-bottom_floatleft .floatedleft-header {
   display: flex;
   justify-content: space-between;
+  padding-bottom: 1rem;
+}
+
+.floatedleft-header h4{
+  font-size: 1.6rem;
+}
+
+.floatedleft-header h5{
+  font-size: 1.2rem;
+  color: #727070;
 }
 
 .widget-bottom_floatleft .left-boxes {
@@ -338,12 +354,54 @@ p {
   height: 15rem;
 }
 
-.box1 {
-  background-color: magenta;
+.box1, .box2, .box3 {
+  padding: 0.4rem;
+  border: 1px solid gray;
+  border-radius: 0.3rem;
+  margin:0.5rem;
+  padding:0.5rem;
 }
-.box2 {
-  background-color: mediumblue;
+
+.box1 .box1-1,
+.box2 .box1-1,
+.box3 .box1-1 {
+  float: left;
 }
-.box3 {
-  background-color: mediumturquoise;
+
+.box1 .box1-2,
+.box2 .box1-2,
+.box3 .box1-2 {
+  float: right;
+  font-size: 3.2rem;
 }
+
+.box1 .clear,
+.box2 .clear,
+.box3 .clear {
+  clear: both;
+  padding-top: 1rem;
+}
+
+.clear h4 {
+  font-weight: lighter;
+  font-size: 0.8rem;
+}
+
+.clear h2 {
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+
+.clear a {
+  position: relative;
+  top: 1rem;
+  font-weight: bold;
+  font-size: 1.2rem;
+  text-decoration: none;
+  color: #567b95;
+}
+
+.clear .clear-last {
+  font-size: 1rem;
+}
+
