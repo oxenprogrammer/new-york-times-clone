@@ -53,6 +53,7 @@ p img {
   max-width: 25%;
   position: relative;
   left: 14rem;
+  cursor: pointer;
 }
 
 .widget-bottom_floatright a {
