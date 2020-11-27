@@ -50,13 +50,6 @@ p img {
   left: 14rem;
 }
 
-.section-2_article h2 a {
-  color: #333;
-  font-size: 1.2rem;
-  text-decoration: none;
-  padding-left: 0.4rem;
-}
-
 .widget-bottom_floatright a {
   text-decoration: none;
   font-size: 1.2rem;
@@ -71,6 +64,13 @@ p img {
   font-size: 1.2rem;
   text-decoration: none;
   color: #567b95;
+}
+
+.section-2_article h2 a {
+  color: #333;
+  font-size: 1.2rem;
+  text-decoration: none;
+  padding-left: 0.4rem;
 }
 
 .grid-one header a {
