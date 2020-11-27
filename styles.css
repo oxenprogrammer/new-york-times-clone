@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=New+Rocker&display=swap&family=Hind+Vadodara:wght@300");
+@import url("https://fonts.googleapis.com/css2?family=New+&family=Hind+Vadodara:wght@300&family=Castoro:ital@1Rocker&display=swap");
 
 *,
 html,
@@ -9,11 +9,16 @@ body {
 
 body {
   font-size: 62.5%;
+  overflow-x: hidden;
 }
 
 h3 {
   position: relative;
   left: 5.6rem;
+}
+
+.header {
+  position: sticky;
 }
 
 .last-article h3 {
@@ -39,11 +44,54 @@ h3 {
   background-color: #d3d3d3;
 }
 
+p img {
+  max-width: 100%;
+}
+
+.heading img {
+  max-width: 30%;
+  position: relative;
+  left: 14rem;
+}
+
+.widget-bottom_floatright a {
+  text-decoration: none;
+  font-size: 1.2rem;
+  padding: 1rem 0;
+  color: #000;
+}
+
+.clear a {
+  position: relative;
+  top: 1rem;
+  font-weight: bold;
+  font-size: 1.2rem;
+  text-decoration: none;
+  color: #567b95;
+}
+
+.footer-bottom a {
+  text-decoration: none;
+  font-size: 0.8rem;
+  color: gray;
+}
+
 .section-2_article h2 a {
   color: #333;
   font-size: 1.2rem;
   text-decoration: none;
   padding-left: 0.4rem;
+}
+
+.grid-one header a {
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+.footer-links header a {
+  text-decoration: none;
+  color: grey;
+  font-size: 1rem;
 }
 
 .start:first-child a {
@@ -67,9 +115,14 @@ h3 {
   border-radius: 0.3rem;
 }
 
-#section1 .section1-header {
-  font-family: "Hind Vadodara", sans-serif;
-  font-size: 2rem;
+.section1 {
+  margin-top: 4rem;
+}
+
+.section1 .section1-header {
+  font-family: "Castoro", serif;
+  font-size: 1.5rem;
+  padding-bottom: 2rem;
   position: relative;
   left: 30%;
   font-style: italic;
@@ -79,16 +132,12 @@ h3 {
   display: block;
 }
 
-p img {
-  max-width: 100%;
-}
-
 .items img {
   width: 40%;
   padding-right: 0.8rem;
 }
 
-#section1 img,
+.section1 img,
 p {
   max-width: 75%;
   position: relative;
@@ -103,6 +152,11 @@ p {
   padding: 0.8rem;
 }
 
+.section1 p {
+  color: #727070;
+  font-size: 1rem;
+}
+
 .section-2 .section-2_article p {
   padding: 0.8rem;
 }
@@ -110,10 +164,6 @@ p {
 .footer p:last-child {
   display: flex;
   justify-content: space-between;
-}
-
-#section1 p {
-  font-size: 1rem;
 }
 
 .section-2 {
@@ -146,7 +196,26 @@ p {
 }
 
 .social .social-media {
-  padding: 0.4rem;
+  padding: 1rem;
+}
+
+.fab,
+.fas,
+.far {
+  margin: 0.6rem;
+}
+
+.fab,
+.fas {
+  padding: 0.6rem;
+  border-radius: 5rem;
+  background-color: lightgrey;
+}
+
+.far {
+  font-size: 2rem;
+  font-weight: lighter;
+  margin-top: 0.2rem;
 }
 
 .section-2 .editor-pick .editor-pick_items {
@@ -213,7 +282,7 @@ p {
   padding: 0.2rem;
 }
 
-#last-article {
+.last-section {
   display: flex;
   justify-content: center;
   padding: 0.8rem 20rem;
@@ -226,30 +295,241 @@ p {
   font-size: 1.2rem;
 }
 
-.last-article iframe {
-  border: 2px red solid;
-}
-
 .footer {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  padding: 0.8rem 20rem;
+  padding: 0.4rem 20rem;
   margin: 1.6rem 0;
 }
 
-.footer p .btn-footer {
-  text-decoration: none;
-  color: #fff;
-  padding: 1rem;
-  width: 16rem;
-  text-align: center;
-  border-radius: 0.2rem;
-  background-color: #567b95;
+.footer .address {
+  margin-top: 1.6rem;
 }
 
-.footer .social {
-  color: #000;
+.btn-footer {
+  background-color: #567b95;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  width: 16rem;
+  border-radius: 0.2rem;
+  font-size: 1rem;
+}
+
+.widget-bottom {
+  position: relative;
+  float: left;
+  left: 10%;
+  width: 80rem;
+}
+
+.widget-bottom::after,
+.widget-bottom_floatright::after,
+.widget-bottom_floatleft::after {
+  content: ".";
+  display: block;
+  height: 0;
+  clear: both;
+  visibility: hidden;
+}
+
+.widget-bottom_floatright {
+  float: right;
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+  margin-left: 2rem;
+}
+
+.widget-bottom_floatright h4 {
+  margin: 0.5rem 0;
+  font-size: 1.2rem;
+  font-weight: 700;
+  padding-bottom: 1rem;
+}
+
+.widget-bottom_floatright a:hover {
+  color: #727070;
+}
+
+.widget-bottom_floatleft {
+  padding: 0.4rem;
+}
+
+.widget-bottom_floatleft .floatedleft-header {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 1rem;
+}
+
+.floatedleft-header h4 {
+  font-size: 1.6rem;
+}
+
+.floatedleft-header h5 {
+  font-size: 1.2rem;
+  color: #727070;
+}
+
+.widget-bottom_floatleft .left-boxes {
+  float: left;
+  width: 15rem;
+  height: 15rem;
+}
+
+.box1,
+.box2,
+.box3 {
+  border: 1px solid gray;
+  border-radius: 0.3rem;
+  margin: 0.5rem;
+  padding: 0.5rem;
+}
+
+.box1::after,
+.box2::after,
+.box3::after {
+  content: ".";
+  display: block;
+  height: 0;
+  clear: both;
+  visibility: hidden;
+}
+
+.box1 .box1-1,
+.box2 .box1-1,
+.box3 .box1-1 {
+  float: left;
+}
+
+.box1 .box1-2,
+.box2 .box1-2,
+.box3 .box1-2 {
+  float: right;
+  font-size: 3.2rem;
+}
+
+.box1 .clear,
+.box2 .clear,
+.box3 .clear {
+  clear: both;
+  padding-top: 1rem;
+}
+
+.clear h4 {
+  font-weight: lighter;
+  font-size: 0.8rem;
+}
+
+.clear h2 {
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+
+.clear .clear-last {
+  font-size: 1rem;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: 17rem 17rem 17rem;
+  grid-template-rows: 17rem 17rem;
+  padding: 1rem 2.4rem 1rem 0;
+}
+
+.grid-container .grid-item {
+  background-color: rgba(255, 255, 255, 0.8);
   padding: 1rem;
   font-size: 1rem;
+}
+
+.grid-item img {
+  width: 100%;
+}
+
+.grid-item h6 {
+  text-align: right;
+  color: #727070;
+  padding: 0.5rem 0;
+}
+
+.grid-item h5 {
+  text-align: left;
+  color: #727070;
+  padding: 0.5rem 0;
+}
+
+.footer-links {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer-links header {
+  display: flex;
+  justify-content: space-between;
+  margin: 1rem 0;
+}
+
+.footer-links header img {
+  max-width: 16%;
+}
+
+.footer-links .links {
+  display: flex;
+  justify-content: space-between;
+}
+
+.links .vertical-line {
+  position: relative;
+  left: 5rem;
+}
+
+.links .link-items {
+  display: flex;
+  flex-direction: column;
+}
+
+.links .link-items h4 {
+  padding-bottom: 0.5rem;
+  font-size: 1.2rem;
+  font-weight: bolder;
+}
+
+.links .link-items a {
+  padding-bottom: 0.5rem;
+  text-decoration: none;
+  color: #000;
+  font-size: 0.9rem;
+}
+
+.footer-bottom a:hover {
+  text-decoration: underline;
+  font-size: 0.85rem;
+}
+
+.links .link-items a:hover {
+  text-decoration: underline;
+  font-size: 0.95rem;
+}
+
+.links .link-items .subscribe {
+  font-weight: bolder;
+  font-size: 1.2rem;
+}
+
+.last-hr {
+  margin: 1rem 0;
+}
+
+.footer-bottom {
+  display: flex;
+  justify-content: space-evenly;
+  margin: 1rem 0;
+}
+
+.caption {
+  color: gray;
 }

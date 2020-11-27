@@ -53,7 +53,7 @@ Deploy on gh pages for testing purposes
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](issues/).
+Feel free to check the [issues page](https://github.com/oxenprogrammer/new-york-times-clone/projects/1#card-50109567).
 
 ## Show your support
 
@@ -64,7 +64,6 @@ Give a ⭐️ if you like this project!
 - https://www.theodinproject.com/
 - https://www.nytimes.com/2014/03/18/science/space/detection-of-waves-in-space-buttresses-landmark-theory-of-big-bang.html?_r=0
 
-
 ## 📝 License
 
-This project is [MIT](lic.url) licensed.
+This project is [MIT](./LICENSE.txt) licensed.
