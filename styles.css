@@ -3,7 +3,7 @@
 *,
 html,
 body {
-  padding: 0 auto;
+  padding: 0;
   margin: 0;
   line-height: 1;
 }
@@ -151,18 +151,33 @@ p {
   position: static;
 }
 
-.last-article p {
-  padding: 0.8rem;
-}
-
 .section1 p {
   color: #727070;
   font-size: 1rem;
 }
 
+.section-2_article h3 {
+  font-size: 1.2rem;
+}
+
+.editor-pick h3 {
+  font-size: 0.9rem;
+}
+
+.inflation h3 {
+  position: static;
+}
+
 .section-2 .section-2_article h3 {
   position: relative;
   left: 11rem;
+}
+
+.last-article p {
+  padding: 0.8rem;
+  margin-right: 1.6rem;
+  font-size: 1.2rem;
+  line-height: 1.8rem;
 }
 
 .section-2 .section-2_article p {
@@ -189,10 +204,6 @@ p {
   padding-left: 8rem;
 }
 
-.section-2_article h3 {
-  font-size: 1.2rem;
-}
-
 .social {
   display: flex;
   position: relative;
@@ -204,22 +215,6 @@ p {
   font-size: 0.9rem;
   position: relative;
   top: 1rem;
-}
-
-.social .social-media {
-  position: relative;
-  left: 8rem;
-  font-size: 0.7rem;
-}
-
-.social-media .fab, .social-media .fas {
-  background-color: #eee;
-}
-
-.social-media .far {
-  position: relative;
-  top: 0.5rem;
-  font-size: 1.8rem;
 }
 
 .fab,
@@ -241,6 +236,23 @@ p {
   margin-top: 0.2rem;
 }
 
+.social .social-media {
+  position: relative;
+  left: 8rem;
+  font-size: 0.7rem;
+}
+
+.social-media .fab,
+.social-media .fas {
+  background-color: #eee;
+}
+
+.social-media .far {
+  position: relative;
+  top: 0.5rem;
+  font-size: 1.8rem;
+}
+
 .section-2 .editor-pick .editor-pick_items {
   display: flex;
   flex-direction: column;
@@ -250,10 +262,6 @@ p {
   margin-top: 20rem;
   padding: 0.8rem;
   width: 14rem;
-}
-
-.editor-pick h3 {
-  font-size: 0.9rem;
 }
 
 .editor-pick_items .items {
@@ -279,10 +287,6 @@ p {
 .inflation hr {
   max-width: 5rem;
   margin-bottom: 0.5rem;
-}
-
-.inflation h3 {
-  position: static;
 }
 
 .larry {
@@ -316,12 +320,6 @@ p {
   padding: 0.8rem 20rem;
   margin: 1.6rem 0;
   max-width: 100%;
-}
-
-.last-article p {
-  margin-right: 1.6rem;
-  font-size: 1.2rem;
-  line-height: 1.8rem;
 }
 
 .footer {
@@ -572,3 +570,4 @@ p {
 .caption {
   color: gray;
 }
+
