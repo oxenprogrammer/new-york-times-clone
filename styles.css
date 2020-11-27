@@ -476,6 +476,10 @@ p {
   justify-content: space-between;
 }
 
+.links .vertical-line {
+  position: relative;
+  left: 5rem;
+}
 .links .link-items {
   display: flex;
   flex-direction: column;
@@ -502,4 +506,25 @@ p {
 .links .link-items .subscribe {
   font-weight: bolder;
   font-size: 1.2rem;
+}
+
+.last-hr {
+  margin: 1rem 0;
+}
+
+.footer-bottom {
+  display: flex;
+  justify-content: space-evenly;
+  margin: 1rem 0;
+}
+
+.footer-bottom a {
+  text-decoration: none;
+  font-size: 0.8rem;
+  color: gray;
+}
+
+.footer-bottom a:hover {
+  text-decoration: underline;
+  font-size: 0.85rem;
 }
