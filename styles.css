@@ -70,6 +70,12 @@ p img {
   color: #567b95;
 }
 
+.footer-bottom a {
+  text-decoration: none;
+  font-size: 0.8rem;
+  color: gray;
+}
+
 .section-2_article h2 a {
   color: #333;
   font-size: 1.2rem;
@@ -80,6 +86,12 @@ p img {
 .grid-one header a {
   font-size: 1.2rem;
   font-weight: bold;
+}
+
+.footer-links header a {
+  text-decoration: none;
+  color: grey;
+  font-size: 1rem;
 }
 
 .start:first-child a {
@@ -465,12 +477,6 @@ p {
   max-width: 16%;
 }
 
-.footer-links header a {
-  text-decoration: none;
-  color: grey;
-  font-size: 1rem;
-}
-
 .footer-links .links {
   display: flex;
   justify-content: space-between;
@@ -480,6 +486,7 @@ p {
   position: relative;
   left: 5rem;
 }
+
 .links .link-items {
   display: flex;
   flex-direction: column;
@@ -496,6 +503,11 @@ p {
   text-decoration: none;
   color: #000;
   font-size: 0.9rem;
+}
+
+.footer-bottom a:hover {
+  text-decoration: underline;
+  font-size: 0.85rem;
 }
 
 .links .link-items a:hover {
@@ -518,13 +530,6 @@ p {
   margin: 1rem 0;
 }
 
-.footer-bottom a {
-  text-decoration: none;
-  font-size: 0.8rem;
-  color: gray;
-}
-
-.footer-bottom a:hover {
-  text-decoration: underline;
-  font-size: 0.85rem;
+.caption {
+  color: gray;"
 }
