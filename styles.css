@@ -339,11 +339,11 @@ p {
   padding-bottom: 1rem;
 }
 
-.floatedleft-header h4{
+.floatedleft-header h4 {
   font-size: 1.6rem;
 }
 
-.floatedleft-header h5{
+.floatedleft-header h5 {
   font-size: 1.2rem;
   color: #727070;
 }
@@ -354,12 +354,24 @@ p {
   height: 15rem;
 }
 
-.box1, .box2, .box3 {
+.box1,
+.box2,
+.box3 {
   padding: 0.4rem;
   border: 1px solid gray;
   border-radius: 0.3rem;
-  margin:0.5rem;
-  padding:0.5rem;
+  margin: 0.5rem;
+  padding: 0.5rem;
+}
+
+.box1:after,
+.box2:after,
+.box3:after {
+  content: ".";
+  display: block;
+  height: 0;
+  clear: both;
+  visibility: hidden;
 }
 
 .box1 .box1-1,
@@ -404,4 +416,3 @@ p {
 .clear .clear-last {
   font-size: 1rem;
 }
-
