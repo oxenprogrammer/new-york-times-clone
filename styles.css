@@ -470,3 +470,36 @@ p {
   color: grey;
   font-size: 1rem;
 }
+
+.footer-links .links {
+  display: flex;
+  justify-content: space-between;
+}
+
+.links .link-items {
+  display: flex;
+  flex-direction: column;
+}
+
+.links .link-items h4 {
+  padding-bottom: 0.5rem;
+  font-size: 1.2rem;
+  font-weight: bolder;
+}
+
+.links .link-items a {
+  padding-bottom: 0.5rem;
+  text-decoration: none;
+  color: #000;
+  font-size: 0.9rem;
+}
+
+.links .link-items a:hover {
+  text-decoration: underline;
+  font-size: 0.95rem;
+}
+
+.links .link-items .subscribe {
+  font-weight: bolder;
+  font-size: 1.2rem;
+}
