@@ -17,6 +17,10 @@ h3 {
   left: 5.6rem;
 }
 
+.header {
+  position: sticky;
+}
+
 .last-article h3 {
   left: 6.5rem;
 }
@@ -277,10 +281,6 @@ p {
 .last-article {
   margin-right: 1.6rem;
   font-size: 1.2rem;
-}
-
-.last-article iframe {
-  border: 2px red solid;
 }
 
 .footer {
