@@ -188,9 +188,8 @@ p {
   color: rgb(20, 20, 20);
 }
 
-.footer p:last-child {
-  display: flex;
-  justify-content: space-between;
+.footer .comment {
+  align-self: center;
 }
 
 .section-2 {
@@ -334,7 +333,7 @@ p {
 .comment {
   display: flex;
   justify-content: space-between;
-  padding: 0.8rem 10rem 0.8rem 6rem;
+  padding: 0.8rem 0em 0.8rem 0rem;
 }
 
 .comment .comment-btn {
