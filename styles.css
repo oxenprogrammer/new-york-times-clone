@@ -227,8 +227,7 @@ p {
 }
 
 .social-media .fab,
-.social-media .fas,
-.social-links .fab .social-links .fab {
+.social-media .fas {
   background-color: #eee;
 }
 
@@ -237,6 +236,10 @@ p {
   background-color: #eee;
   border-radius: 5rem;
   margin-left: 1.5rem;
+}
+
+.social-links .fab .social-links .fab {
+  background-color: #eee;
 }
 
 .comment .social-links .fas {
