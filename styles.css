@@ -203,7 +203,7 @@ p {
 .comment {
   display: flex;
   justify-content: space-between;
-  padding: 0.8rem 0rem 0.8rem 0rem;
+  padding: 0.8rem 0 0.8rem 0;
 }
 
 .footer .comment {
