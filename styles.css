@@ -226,18 +226,18 @@ p {
   font-size: 0.7rem;
 }
 
+.social-media .fab,
+.social-media .fas,
+.social-links .fab .social-links .fab {
+  background-color: #eee;
+}
+
 .comment .social-links .fab,
 .comment .social-links .fas {
   padding: 0.8rem;
   background-color: #eee;
   border-radius: 5rem;
   margin-left: 1.5rem;
-}
-
-.social-media .fab,
-.social-media .fas,
-.social-links .fab .social-links .fab {
-  background-color: #eee;
 }
 
 .social-media .far {
