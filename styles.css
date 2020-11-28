@@ -236,8 +236,7 @@ p {
 
 .social-media .fab,
 .social-media .fas,
-.social-links .fab
-.social-links .fab {
+.social-links .fab .social-links .fab {
   background-color: #eee;
 }
 
@@ -354,7 +353,6 @@ p {
   border: 0.1rem solid rgb(155, 154, 154);
   cursor: pointer;
 }
-
 
 .widget-bottom {
   position: relative;
