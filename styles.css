@@ -135,8 +135,6 @@ p img {
   font-family: "Castoro", serif;
   font-size: 1.5rem;
   padding-bottom: 2rem;
-  /* position: relative;
-  left: 30%; */
   align-self: center;
   font-style: italic;
 }
@@ -200,6 +198,12 @@ p {
   padding: 0.8rem 0.8rem 0.8rem 6rem;
   line-height: 1.8rem;
   color: rgb(20, 20, 20);
+}
+
+.comment {
+  display: flex;
+  justify-content: space-between;
+  padding: 0.8rem 0rem 0.8rem 0rem;
 }
 
 .footer .comment {
@@ -343,12 +347,6 @@ p {
   justify-content: center;
   margin: 1.6rem 20rem;
   max-width: 100%;
-}
-
-.comment {
-  display: flex;
-  justify-content: space-between;
-  padding: 0.8rem 0em 0.8rem 0rem;
 }
 
 .comment .comment-btn {
