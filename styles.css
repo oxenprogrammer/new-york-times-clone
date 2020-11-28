@@ -227,7 +227,9 @@ p {
 }
 
 .social-media .fab,
-.social-media .fas {
+.social-media .fas,
+.social-links .fab
+.social-links .fab {
   background-color: #eee;
 }
 
@@ -314,13 +316,13 @@ p {
   margin: 1.6rem 20rem;
 }
 
-.footer .address {
-  margin-top: 1.6rem;
+.comment {
   display: flex;
   justify-content: space-between;
+  padding: 0.8rem 10rem 0.8rem 6rem;
 }
 
-.btn-footer {
+.comment .comment-btn {
   background-color: #567b95;
   text-decoration: none;
   display: flex;
@@ -330,7 +332,29 @@ p {
   width: 20rem;
   border-radius: 0.2rem;
   font-size: 1rem;
+  padding: 1rem 0;
 }
+
+.comment .social-links {
+  position: relative;
+  font-size: 1rem;
+}
+
+.comment .social-links .fab,
+.comment .social-links .fas {
+  padding: 0.8rem;
+  background-color: #eee;
+  border-radius: 5rem;
+  margin-left: 1.5rem;
+}
+
+.comment .social-links .fab:hover,
+.comment .social-links .fas:hover {
+  background-color: #fff;
+  border: 0.1rem solid rgb(155, 154, 154);
+  cursor: pointer;
+}
+
 
 .widget-bottom {
   position: relative;
