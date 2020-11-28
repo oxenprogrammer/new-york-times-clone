@@ -380,7 +380,7 @@ p {
   position: relative;
   float: left;
   left: 10%;
-  width: 100%;
+  width: 80%;
 }
 
 .widget-bottom::after,
