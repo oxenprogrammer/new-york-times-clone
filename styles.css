@@ -226,6 +226,14 @@ p {
   font-size: 0.7rem;
 }
 
+.comment .social-links .fab,
+.comment .social-links .fas {
+  padding: 0.8rem;
+  background-color: #eee;
+  border-radius: 5rem;
+  margin-left: 1.5rem;
+}
+
 .social-media .fab,
 .social-media .fas,
 .social-links .fab
@@ -338,14 +346,6 @@ p {
 .comment .social-links {
   position: relative;
   font-size: 1rem;
-}
-
-.comment .social-links .fab,
-.comment .social-links .fas {
-  padding: 0.8rem;
-  background-color: #eee;
-  border-radius: 5rem;
-  margin-left: 1.5rem;
 }
 
 .comment .social-links .fab:hover,
