@@ -227,7 +227,7 @@ p {
   display: flex;
   position: relative;
   justify-content: space-between;
-  padding: 0.8rem 11rem;
+  padding: 0.8rem 8rem 0.4rem 11rem;
 }
 
 .social span {
@@ -237,14 +237,15 @@ p {
 }
 
 .social .social-media {
-  position: relative;
-  left: 8rem;
-  font-size: 0.7rem;
+  font-size: 0.9rem;
 }
 
 .social-media .fab,
 .social-media .fas {
   background-color: #eee;
+  padding: 1rem;
+  margin: 0.2rem;
+  border-radius: 5rem;
 }
 
 .comment .social-links .fab {
@@ -269,6 +270,7 @@ p {
   position: relative;
   top: 0.5rem;
   font-size: 1.8rem;
+  margin: 0 0.5rem;
 }
 
 .section-2 .editor-pick .editor-pick_items {
